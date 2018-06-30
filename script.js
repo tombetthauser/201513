@@ -1,6 +1,16 @@
-var pass = prompt("Enter Password:")
+// var p = false
+var i = prompt("Please enter Password:")
 
-while (pass !== "ch1pdude") {
+// if (i === "ch1pdude" || i === "password" || i === "pass" || i === "p") {
+// 	p = true;
+// } else {
+// 	while ( p === false) {
+// 		alert("Password invalid.");
+// 		i = prompt("Please enter Password:");
+// 	}
+// }
+
+while ( i !== "ch1pdude") {
 	alert("Password invalid.");
-	pass = prompt("Enter Password:");
+	i = prompt("Please enter Password:");
 }
