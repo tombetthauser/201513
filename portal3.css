@@ -6,6 +6,9 @@ body {
   font-family: monospace;
   padding-bottom: 25%;
 }
+audio {
+  opacity: .05;
+}
 .header {
   padding: 20px;
   text-align: center;
