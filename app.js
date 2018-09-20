@@ -256,8 +256,6 @@ function load() {
 	var y = document.createTextNode(title);
 	x.appendChild(y);
 	document.body.appendChild(x);
-	// var x = document.createElement("BR");
- //  	document.body.appendChild(x);
 	for(i = 0; i < array.length; i++){
 	    var x = document.createElement("A");
 	    x.href = array[i].href;
