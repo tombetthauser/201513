@@ -92,6 +92,9 @@ var array = [
 		text: "Tom's Github",
 		href: "https://github.com/tombetthauser"
 	},{
+		text: "Andrei's Udemy Course",
+		href: "https://www.udemy.com/the-complete-web-developer-in-2018/learn/v4/content"
+	},{
 		text: "Colt's Udemy Course",
 		href: "https://www.udemy.com/the-web-developer-bootcamp/learn/v4/content"
 	},{
@@ -210,7 +213,7 @@ var array = [
 		href: "http://kikijohnson.tumblr.com/"
 	},{
 		text: "Marks Website",
-		href: ""
+		href: "https://markaubert.com/"
 	},{
 		text: "",
 		href: ""
