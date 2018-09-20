@@ -3,11 +3,12 @@ body {
 	color: black;
 	font-family: monospace;
 	text-align: center;
-	margin-bottom: 10%;
+	margin-bottom: 20px%;
+	white-space: nowrap;
 }
 
 p {
-	margin: 5% 0 4%;
+	margin: 50px 0 40px;
 }
 
 a {

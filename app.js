@@ -1,4 +1,4 @@
-var title = "Tom's Web Portal 3.0";
+var title = "--------------- Tom's Web Portal 3.0 ---------------";
 
 var array = [
 	{
