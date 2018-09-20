@@ -3,7 +3,11 @@ body {
 	color: black;
 	font-family: monospace;
 	text-align: center;
-	margin: 5%;
+	margin-bottom: 10%;
+}
+
+p {
+	margin: 5% 0 4%;
 }
 
 a {
