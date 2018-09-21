@@ -232,6 +232,12 @@ var password = [
 var greeting = [
 	"Welcome back Tom.",
 	"Hello again Tom.",
+	"Hello there Tom.",
+	"How have you been Tom?",
+	"Hi Tom.",
+	"Hi there Tom.",
+	"Hello Tom, I hope you have been well.",
+	"Hello Tom, I hope all has been well.",
 	"Nice to see you again Tom."
 ];
 
