@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	transition: 1s;
 }
 
 body {
@@ -32,11 +33,25 @@ a:hover {
 	left: -1%;
 }
 
+#plantleft:hover {
+	width: 35%;
+	position: fixed;
+	bottom: -1%;
+	left: -15%;
+}
+
 #plantright {
 	width: 35%;
 	position: fixed;
 	bottom: -1%;
 	right: -1%;
+}
+
+#plantright:hover {
+	width: 35%;
+	position: fixed;
+	bottom: -1%;
+	right: -15%;
 }
 
 .shakeBlur {
