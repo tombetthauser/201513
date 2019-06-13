@@ -1,19 +1,81 @@
+// const testArr = [4,2,6,7,3,1,5,9,8,10,0];
+// const testArr = ["cucumber", "banana", "apple", "date", "nut", "orange", "avocado", "pineapple", "onion", "garlic"];
+// const testArr = [
+// 	{text: "cucumber", href: "#"}, 
+// 	{text: "banana", href: "#"}, 
+// 	{text: "apple", href: "#"}, 
+// 	{text: "date", href: "#"}, 
+// 	{text: "nut", href: "#"}, 
+// 	{text: "orange", href: "#"}, 
+// 	{text: "avocado", href: "#"}, 
+// 	{text: "pineapple", href: "#"}, 
+// 	{text: "onion", href: "#"},
+// 	{text: "garlic", href: "#"}
+// ];
+
+// const reorderArray = (arr) => {
+// 	const sort = (arr) => {
+// 		arr.sort(function(a, b){
+// 			return b.text.length - a.text.length
+// 		});
+// 	};
+// 	sort(arr);
+// 	const secondToFirst = (arr) => {
+// 		arr.unshift(arr[1]);
+// 		arr.splice(2, 1);
+// 	};
+// 	secondToFirst(arr);
+// }
+
+// reorderArray(testArr);
+// console.log(testArr);
+
+
+
+
+
+
+
+
+
+
+
+
 // var title = "--------------- Tom's Web Portal 3.0 ---------------";
 
 var array = [
-	{
+	{	
 		text: "trello",
 		href: "https://trello.com/tombetthauser/boards"
-	},{
+	},
+	{	
 		text: "bandcamp feed",
 		href: "https://bandcamp.com/tobeth/feed"
-	},{
+	},
+	{
 		text: "focus tube",
 		href: "http://www.tombetthauser.com/focus"
-	},{
+	},
+	{
 		text: "udemy",
 		href: "https://www.udemy.com/"
-	}
+	},
+	{
+		text: "project euler",
+		href: "https://projecteuler.net/archives"
+	},
+	{
+		text: "repl",
+		href: "https://repl.it/languages"
+	},
+	{
+		text: "Contacts",
+		href: "https://docs.google.com/spreadsheets/d/1p6r4aKiNSTuoJ6tC6PWKh5aNPfIItZ8FzQzVQytXOkA/edit#gid=0"
+	},
+	{
+		text: "Timer",
+		href: "http://www.cubetimer.com/"
+	},
 	// 	text: "Google Email",
 	// 	href: "https://mail.google.com/mail/u/0/#inbox"
 	// },{
@@ -109,9 +171,6 @@ var array = [
 	// },{
 	// 	text: "Colt's Udemy Course",
 	// 	href: "https://www.udemy.com/the-web-developer-bootcamp/learn/v4/content"
-	// },{
-	// 	text: "Mario Teaches Typing",
-	// 	href: "https://classicreload.com/mario-teaches-typing.html"
 	// },{
 	// 	text: "Font Awesome",
 	// 	href: "https://fontawesome.com/icons?d=listing&m=free"
@@ -229,10 +288,7 @@ var array = [
 	// },{
 	// 	text: "",
 	// 	href: ""
-	// },{
-	// 	text: "Rubik's Cube Speed Timer",
-	// 	href: "http://www.cubetimer.com/"
-	// }
+	// },
 ]
 
 var password = [
@@ -241,25 +297,28 @@ var password = [
 	"p"
 ];
 
-// var greeting = [
-// 	"Welcome back Tom.",
-// 	"Hello again Tom.",
-// 	"Hello there Tom.",
-// 	"How have you been Tom?",
-// 	"Hi Tom.",
-// 	"Hi there Tom.",
-// 	"Hello Tom, I hope you have been well.",
-// 	"Hello Tom, I hope all has been well.",
-// 	"Nice to see you again Tom."
-// ];
-
 // ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 init();
 
 // ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
+function reorderArray(arr){
+	const sort = (arr) => {
+		arr.sort(function(a, b){
+			return b.text.length - a.text.length
+		});
+	};
+	sort(arr);
+	const secondToFirst = (arr) => {
+		arr.unshift(arr[2]);
+		arr.splice(3, 1);
+	};
+	secondToFirst(arr);
+}
+
 function init() {
+	reorderArray(array);
 	var p = prompt("key required");
 	while (p !== password[0] && p !== password[1] && p !== password[2]) {
 		p = prompt("key required");
@@ -271,15 +330,13 @@ function init() {
 
 function load() {
 	var x = document.createElement("P");
-	// var y = document.createTextNode(title);
-	// x.appendChild(y);
 	document.body.appendChild(x);
 	for(i = 0; i < array.length; i++){
 	    var x = document.createElement("A");
 	    x.href = array[i].href;
 	    x.target = "new";
 	    x.class = "link";
-	    var y = document.createTextNode(array[i].text);
+	    var y = document.createTextNode(array[i].text.toLowerCase());
 	    x.appendChild(y);
 	    document.body.appendChild(x);
     	var x = document.createElement("BR");
