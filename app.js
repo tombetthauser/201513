@@ -76,6 +76,14 @@ var array = [
 		text: "Timer",
 		href: "http://www.cubetimer.com/"
 	},
+	{
+		text: "coder byte",
+		href: "https://coderbyte.com/challenges"
+	},
+	{
+		text: "code wars",
+		href: "https://www.codewars.com/dashboard"
+	},
 	// 	text: "Google Email",
 	// 	href: "https://mail.google.com/mail/u/0/#inbox"
 	// },{
