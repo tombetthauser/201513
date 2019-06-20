@@ -84,6 +84,10 @@ var array = [
 		text: "code wars",
 		href: "https://www.codewars.com/dashboard"
 	},
+	{
+		text: "surveys",
+		href: "https://docs.google.com/forms/u/0/"
+	},
 	// 	text: "Google Email",
 	// 	href: "https://mail.google.com/mail/u/0/#inbox"
 	// },{
