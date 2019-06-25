@@ -45,6 +45,22 @@
 
 var array = [
 	{	
+		text: "bandcamp daily",
+		href: "https://daily.bandcamp.com/"
+	},
+	{	
+		text: "the daily",
+		href: "https://www.nytimes.com/2019/06/25/podcasts/the-daily/democrats-trump-impeachment.html"
+	},
+	{	
+		text: "fresh air",
+		href: "https://www.npr.org/programs/fresh-air/"
+	},
+	{	
+		text: "ui benefits",
+		href: "https://portal.edd.ca.gov/WebApp/Login?resource_url=https%3A%2F%2Fportal.edd.ca.gov%2FWebApp%2FHome"
+	},
+	{	
 		text: "trello",
 		href: "https://trello.com/tombetthauser/boards"
 	},
