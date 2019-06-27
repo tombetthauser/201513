@@ -45,6 +45,10 @@
 
 var array = [
 	{	
+		text: "bandcamp following",
+		href: "https://bandcamp.com/tobeth/following/artists_and_labels"
+	},
+	{	
 		text: "bandcamp daily",
 		href: "https://daily.bandcamp.com/"
 	},
