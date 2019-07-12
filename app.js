@@ -45,23 +45,31 @@
 
 var array = [
 	{	
-		text: "bandcamp following",
-		href: "https://bandcamp.com/tobeth/following/artists_and_labels"
+		text: "coderbyte",
+		href: "https://www.coderbyte.com/profile/tombetthauser"
 	},
 	{	
-		text: "bandcamp daily",
-		href: "https://daily.bandcamp.com/"
+		text: "sumo",
+		href: "https://www.tombetthauser.com/sumo"
 	},
+	// {	
+	// 	text: "bandcamp following",
+	// 	href: "https://bandcamp.com/tobeth/following/artists_and_labels"
+	// },
+	// {	
+	// 	text: "bandcamp daily",
+	// 	href: "https://daily.bandcamp.com/"
+	// },
+	// {	
+	// 	text: "the daily",
+	// 	href: "https://www.nytimes.com/2019/06/25/podcasts/the-daily/democrats-trump-impeachment.html"
+	// },
+	// {	
+	// 	text: "fresh air",
+	// 	href: "https://www.npr.org/programs/fresh-air/"
+	// },
 	{	
-		text: "the daily",
-		href: "https://www.nytimes.com/2019/06/25/podcasts/the-daily/democrats-trump-impeachment.html"
-	},
-	{	
-		text: "fresh air",
-		href: "https://www.npr.org/programs/fresh-air/"
-	},
-	{	
-		text: "ui benefits",
+		text: "benefits",
 		href: "https://portal.edd.ca.gov/WebApp/Login?resource_url=https%3A%2F%2Fportal.edd.ca.gov%2FWebApp%2FHome"
 	},
 	{	
@@ -69,45 +77,48 @@ var array = [
 		href: "https://trello.com/tombetthauser/boards"
 	},
 	{	
-		text: "bandcamp feed",
+		text: "bandcamp",
 		href: "https://bandcamp.com/tobeth/feed"
 	},
-	{
-		text: "focus tube",
-		href: "http://www.tombetthauser.com/focus"
-	},
+	// {
+	// 	text: "focus tube",
+	// 	href: "http://www.tombetthauser.com/focus"
+	// },
 	{
 		text: "udemy",
 		href: "https://www.udemy.com/"
 	},
+	// {
+	// 	text: "project euler",
+	// 	href: "https://projecteuler.net/archives"
+	// },
+	// {
+	// 	text: "repl",
+	// 	href: "https://repl.it/languages"
+	// },
 	{
-		text: "project euler",
-		href: "https://projecteuler.net/archives"
-	},
-	{
-		text: "repl",
-		href: "https://repl.it/languages"
-	},
-	{
-		text: "Contacts",
+		text: "contacts",
 		href: "https://docs.google.com/spreadsheets/d/1p6r4aKiNSTuoJ6tC6PWKh5aNPfIItZ8FzQzVQytXOkA/edit#gid=0"
 	},
-	{
-		text: "Timer",
-		href: "http://www.cubetimer.com/"
-	},
-	{
-		text: "coder byte",
-		href: "https://coderbyte.com/challenges"
-	},
-	{
-		text: "code wars",
-		href: "https://www.codewars.com/dashboard"
-	},
-	{
-		text: "surveys",
-		href: "https://docs.google.com/forms/u/0/"
-	},
+	// {
+	// 	text: "timer",
+	// 	href: "http://www.cubetimer.com/"
+	// },
+	// {
+	// 	text: "coder byte",
+	// 	href: "https://coderbyte.com/challenges"
+	// },
+	// {
+	// 	text: "code wars",
+	// 	href: "https://www.codewars.com/dashboard"
+	// },
+	// {
+	// 	text: "surveys",
+	// 	href: "https://docs.google.com/forms/u/0/"
+	// },
+
+
+
 	// 	text: "Google Email",
 	// 	href: "https://mail.google.com/mail/u/0/#inbox"
 	// },{
