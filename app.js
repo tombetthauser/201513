@@ -46,7 +46,7 @@
 var array = [
 	{	
 		text: "coderbyte",
-		href: "https://www.coderbyte.com/profile/tombetthauser"
+		href: "https://www.coderbyte.com/challenges"
 	},
 	{	
 		text: "sumo",
